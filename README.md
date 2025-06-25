@@ -1,37 +1,35 @@
-FileConverter – Desktop Utility
-FileConverter is a lightweight desktop application designed to make file conversions simple and accessible through a right-click context menu. It allows users to convert files to various formats without opening any separate software or tools.
+# FileConverter – Desktop Utility
 
-Key Features
+**FileConverter** is a lightweight desktop application that simplifies file conversions directly from the right-click context menu. It allows users to convert files to various formats without the need to open separate software.
 
-Convert files to PDF
+---
 
-Convert files to DOCX
+## Key Features
 
-Convert files to PPTX
+- Convert files to **PDF**
+- Convert files to **DOCX**
+- Convert files to **PPTX**
+- Convert images to **JPG**
+- **Compress** files to reduce their size
 
-Convert images to JPG
+These features are integrated into Windows File Explorer to streamline everyday tasks and improve productivity.
 
-Compress files to reduce size
+---
 
-This utility is intended to improve workflow efficiency by integrating these features directly into the Windows file explorer.
+## Technologies Used
 
-Technologies Used
-Python
+- **Python** – Core programming language  
+- **PyInstaller** – To build the standalone executable  
+- **Inno Setup** – To package and create the installer  
+- Libraries: `python-docx`, `python-pptx`, `Pillow`, and others
 
-PyInstaller (for creating standalone executable)
+---
 
-Inno Setup (for creating the Windows installer)
+## Installation
 
-Libraries: python-docx, python-pptx, Pillow, and others
+1. Go to the **Releases** section of this repository.
+2. Download the latest `FileConverterInstaller.exe`.
+3. Run the installer and follow the on-screen instructions.
+4. After installation, simply right-click any supported file and select the desired conversion option from the context menu.
 
-Installation
-To install the application:
-
-Navigate to the "Releases" section of this repository.
-
-Download the latest FileConverterInstaller.exe file.
-
-Run the installer and follow the instructions.
-
-After installation, right-click any supported file and select the appropriate conversion option from the context menu.
-
+----------
