@@ -1,0 +1,27 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.so
+
+# PyInstaller
+*.spec
+/build/
+/dist/
+
+# Installer Output
+installer/Output/
+
+# Windows binaries
+*.exe
+
+# Logs and temp
+*.log
+*.toc
+*.zip
+*.html
+*.txt
+*.pkg
+*.pyz
+
+# VS Code
+.vscode/
